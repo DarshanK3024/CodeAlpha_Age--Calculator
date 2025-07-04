@@ -1,0 +1,75 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Date input */
+input[type="date"] {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background-color: #00b894;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #019875;
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2d3436;
+}
